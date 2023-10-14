@@ -2,10 +2,10 @@ function buttonFunction(secim){
     let ad = prompt("Adinizi Yazin :")
 let yas = Number(prompt("Yasiniz Yazin :"))
 
-if(yas<=6){
+if(yas<=5){
     document.getElementById("button").innerHTML = (ad + " Sen Korpesen")
 }
-else if (6<yas &&  yas<=11) {
+else if (6<yas &&  yas<=10) {
 
     document.getElementById("button").innerHTML = ( ad + " Sen Usaqsan")
 }
@@ -13,18 +13,22 @@ else if(11<yas && yas<=17){
 
         document.getElementById("button").innerHTML = ( ad + " Sen Yeniyetmesen")
 }
-else if(17<yas && yas<=25){
+else if(18<yas && yas<=35){
     document.getElementById("button").innerHTML = ( ad + " Sen Gencsen")
 }
-else if(35<yas && yas<=35){
+else if(36<yas && yas<=45){
     document.getElementById("button").innerHTML = ( ad + " Sen Gencsen")
 }
-else if(45<yas && yas<=70){
+else if(46<yas && yas<=65){
     
     document.getElementById("button").innerHTML = ( ad + " Sen Qocasan")
 }
-else if (65<yas && yas<100){
+else if (66<yas && yas<=80){
 
-    document.getElementById("button").innerHTML = ( ad + " Sen qocasan")
+    document.getElementById("button").innerHTML = ( ad + " Sen Pensiyasan")
+}
+else if (80<yas){
+
+    document.getElementById("button").innerHTML = ( ad + " Sen olmusen Xeberin Yoxdu")
 }
 }
