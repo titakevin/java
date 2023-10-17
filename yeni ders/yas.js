@@ -5,23 +5,23 @@ let yas = Number(prompt("Yasiniz Yazin :"))
 if(yas<=5){
     document.getElementById("button").innerHTML = (ad + " Sen Korpesen")
 }
-else if (6<yas &&  yas<=10) {
+else if (1<yas &&  yas<=6) {
 
     document.getElementById("button").innerHTML = ( ad + " Sen Usaqsan")
 }
-else if(11<yas && yas<=17){
+else if(6<yas && yas<=11){
 
         document.getElementById("button").innerHTML = ( ad + " Sen Yeniyetmesen")
 }
-else if(18<yas && yas<=35){
+else if(11<yas && yas<=18){
+    document.getElementById("button").innerHTML = ( ad + " Sen Yeniyetmesen")
+}
+else if(18<yas && yas<=30){
     document.getElementById("button").innerHTML = ( ad + " Sen Gencsen")
 }
-else if(36<yas && yas<=45){
-    document.getElementById("button").innerHTML = ( ad + " Sen Gencsen")
-}
-else if(46<yas && yas<=65){
+else if(30<yas && yas<=70){
     
-    document.getElementById("button").innerHTML = ( ad + " Sen Qocasan")
+    document.getElementById("button").innerHTML = ( ad + " Sen Ortayaslisan")
 }
 else if (66<yas && yas<=80){
 
